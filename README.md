@@ -59,3 +59,27 @@ The workflow included:
 DIABLO Analysis
 Procrustes Analysis
 Co-inertia / CCA Analysis
+
+
+# Citation
+
+If using this repository or workflow, please cite:
+
+Kumar et al. — Algal multi-omics analysis workflow
+
+---
+
+# Authors
+
+Pravin Kumar1, Shiva Sundharam S1,2, Gaurav Tripathi3, Manisha Yadav3, Jaswinder Singh Maras3, Kalyan De2,4, Sambhaji Mote4, Srinivasan Krishnamurthi1,2
+
+
+1Microbial Type Culture Collection & Gene Bank (MTCC), CSIR-Institute of Microbial Technology, Sector-39A, Chandigarh-160036.
+
+2Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, Uttar Pradesh, India
+
+3Department of Molecular and Cellular Medicine, Institute of Liver and Biliary Sciences (ILBS), New Delhi
+
+4Biological Oceanography Division, CSIR National Institute of Oceanography (NIO), Goa, India
+
+Correpondance: srinivasan.kmurthi@csir.res.in

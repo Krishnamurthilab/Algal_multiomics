@@ -1,47 +1,3 @@
-** NOTE: This repository only provides pipeline and workflows implementated in the current research to analyse the multiomics datasets. The tools and softawre belong to the original developers cited in the manuscript.
-
-# Software and Tool Usage Notice
-
-This repository does not distribute or claim ownership of the third-party software and bioinformatics tools used in the analyses.
-
-All analyses were performed using freely available open-source tools, packages, and publicly available software developed by their respective authors and communities.
-
-This repository primarily provides:
-
-- workflow organization
-- analysis scripts
-- parameter settings
-- reproducible analytical pipelines
-- downstream statistical analyses
-
-Users should cite the original software/tools/packages according to their respective publications and licenses.
-
-# Major Software and Packages Used
-- USEARCH v11.0.667
-- RDP classifier v2.13
-- MEGAN 6.24.22
-- MetaboAnalyst (webserver)
-- MicrobiomeAnalyst (webserver)
-- FASTQC v0.11.9
-- Trimmomatic v0.39
-- Metaspades v3.13.1
-- DIAMOND + MEGAN tool v3.0
-- MaxBin2 v2.2
-- MetaBAT2 v1.7
-- GTDB-Tk v2.4.1
-- Concoct v1.1
-- das v1.1.2
-- checkM v1.0.18
-- QUAST v5.0.2
-- mixOmics
-- coverM
-- barrnap
-- Bakta
-- vegan
-- ggplot2
-- pheatmap
-
-
 # Algal Multi-omics Analysis
 
 ## Overview
@@ -231,6 +187,46 @@ Performed to identify shared ecological gradients and associations between datas
 
 # Software and Tools
 
+** NOTE: This repository only provides pipeline and workflows implementated in the current research to analyse the multiomics datasets. The tools and softawre belong to the original developers cited in the manuscript.
+
+## Software and Tool Usage Notice
+
+This repository does not distribute or claim ownership of the third-party software and bioinformatics tools used in the analyses.
+
+All analyses were performed using freely available open-source tools, packages, and publicly available software developed by their respective authors and communities.
+
+This repository primarily provides:
+
+- workflow organization
+- analysis scripts
+- parameter settings
+- reproducible analytical pipelines
+- downstream statistical analyses
+
+Users should cite the original software/tools/packages according to their respective publications and licenses.
+
+## Major Software and Packages Used
+- USEARCH v11.0.667
+- RDP classifier v2.13
+- MEGAN 6.24.22
+- MetaboAnalyst (webserver)
+- MicrobiomeAnalyst (webserver)
+- FASTQC v0.11.9
+- Trimmomatic v0.39
+- Metaspades v3.13.1
+- DIAMOND + MEGAN tool v3.0
+- MaxBin2 v2.2
+- MetaBAT2 v1.7
+- GTDB-Tk v2.4.1
+- Concoct v1.1
+- das v1.1.2
+- checkM v1.0.18
+- QUAST v5.0.2
+- mixOmics
+- coverM
+- barrnap
+- Bakta
+
 ## Programming Languages
 
 - R
@@ -238,7 +234,6 @@ Performed to identify shared ecological gradients and associations between datas
 
 ## Major R Packages
 
-```r
 vegan
 ggplot2
 mixOmics
@@ -247,8 +242,6 @@ reshape2
 ggrepel
 pheatmap
 dplyr
-```
-
 ---
 
 # Key Statistical Methods
@@ -291,7 +284,7 @@ Input datasets include:
 All analyses were performed using curated datasets and reproducible R workflows provided in this repository.
 
 ---
-
+# Overall repository structure
 Algal_multiomics/
 ├── README.md
 ├── LICENSE
