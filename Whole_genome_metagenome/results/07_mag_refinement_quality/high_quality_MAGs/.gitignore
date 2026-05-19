@@ -1,0 +1,31 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Python
+__pycache__/
+
+# Linux
+*.swp
+
+# Mac
+.DS_Store
+
+# Sequencing files
+*.fastq
+*.fq
+*.fastq.gz
+*.bam
+*.sam
+*.fasta
+
+# Large outputs
+*.svg
+*.pdf
+*.png
+*.jpeg
+
+# Temporary files
+tmp/
+temp/
