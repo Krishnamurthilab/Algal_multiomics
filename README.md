@@ -5,7 +5,7 @@ In the marine ecosystem, macroalgae harboured specialized microbial community in
 ## Graphical Abstract
 
 <p align="center">
-  <img src="Integration/Graphical_abstract.png" width="700">
+  <img src="integration/graphical_abstract.png" width="700">
 </p>
 
 **Figure.** Chemical and microbial ecology of algal holobionts.
