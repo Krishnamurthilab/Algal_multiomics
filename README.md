@@ -1,65 +1,11 @@
-# Algal multiomics analysis
-The repositpory contains complete and reproducible workflow used for multiomics analysis of macroalgal samples from Central West Coast of Goa, India.
+# Multi-Omics Insights into the Molecular Ecology and Metabolic Interdependence of Marine Algal Holobionts
+## Abstract
+In the marine ecosystem, macroalgae harboured specialized microbial community influenced by host and geography, however, comprehensive insights into the structural and functional organization of algal surface microbiomes remain limited specially in tropical systems. In this study, an integrated amplicon sequencing, whole genome metagenomics and metabolomics approach were utilized to decipher the structure-function of surface bacterial communities and their interactions with the host holobiont. The analysis revealed that epiphytic communities were clearly distinct from surrounding water and sediment, comprising a conserved core microbiome along with overwhelming host-specific assemblages, highlighting the combined influence of host identity and microhabitat-driven selection. Whole genome metagenome’s functional profiling revealed enrichment of pathways related to algal polysaccharide degradation, nutrient acquisition (notably phosphate and carnitine metabolism), nitrogen and sulfur cycling, and extensive secondary metabolites biosynthesis. Complementary metabolomic profiling further identified a chemically rich algal surface enriched in signalling and defence-related compounds, including quorum-sensing molecules, phytohormones, lipids, and terpenoids. Additionally, integrated multi-omics analysis identified tightly interconnected microbe–metabolite networks, with key taxa emerging as central metabolic hubs closely associated with host-derived compounds and driving cross-kingdom interactions within the algal holobiont. Overall, these findings support a chemically mediated, host–microbiome interdependent model of the macroalgal holobiont, in which metabolic exchange drives nutrient cycling, ecological resilience, and coastal biogeochemical functioning.
 
-## Overview
-The study integrates v3-v4 amplicon sequencing, whole genome metagenome sequencing and untargeted LC-MS based metabolome analysis to investigate structural and functional community composition and factors influencing the community composition of the algae.
+![Graphical Abstract](Integration/image-2.png)
 
-## 1. Amplicon Analysis
-Amplicon sequencing analysis was performed to investigate microbial community composition associated with marine algal samples.
-
-Analyses Included
-Quality filtering
-Denoising
-Taxonomic assignment
-Alpha diversity
-Beta diversity
-Ordination analysis
-
-## 2. Metagenome Analysis
-Shotgun metagenomic analysis was performed to explore microbial functional potential and ecological adaptation.
-
-Analyses Included
-Quality control
-Assembly
-Functional annotation
-Taxonomic profiling
-COG analysis
-Metabolic pathway analysis
-Comparative functional profiling
-
-## 3. Metabolome Analysis
-LC-MS based metabolome profiling was performed to investigate algal-associated metabolite diversity.
-
-### Metabolite Curation
-The metabolite dataset was manually curated to remove: 1. Duplicate metabolites, 2. Unmatched compounds, 3. Synthetic drug-related metabolites
-
-
-### Metabolite annotation strategies
-Each metabolites were manually search against PubChem, HMDB, KEGG, ChEBI, LipidMaps, and published literatures to determine 1. Biological source, 2. Chemical nature, 3. Functional and ecological relevance
-
-Additional filteration steps were perforemd which excluded terrestrail, human, animal related origin source, resulting in a final set of 300 metabolites associated with marine, algal, plant, and microbial systems.
-
-The metabolome analysis included:
-
-Data normalization
-Bray-Curtis dissimilarity
-NMDS ordination
-Environmental fitting (envfit)
-Convex hull analysis
-PCA biplot analysis
-PLS-DA
-PERMANOVA
-
-## 4. Multi-omics Integration Analysis
-
-Integrated analysis of metagenomic and metabolomic datasets was performed to identify relationships between microbial functions and metabolite profiles.
-
-The workflow included:
-
-DIABLO Analysis
-Procrustes Analysis
-Co-inertia / CCA Analysis
-
+## Workflow overview
+This study employed an integrated multi-omics workflow combining V3–V4 amplicon sequencing, whole-genome metagenomics, and untargeted LC–MS-based metabolomics to investigate the structural and functional organization of algal-associated microbial communities. Comparative taxonomic, functional, and metabolite profiling, together with multi-omics integration analyses, were performed to identify host-specific microbial assemblages, metabolic interactions, and microbe–metabolite association networks shaping the macroalgal holobiont. For detailed overview refer to workflow_README.md
 
 # Citation
 
