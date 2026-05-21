@@ -23,7 +23,6 @@ __pycache__/
 # Large outputs
 *.svg
 *.pdf
-*.png
 *.jpeg
 
 # Temporary files
