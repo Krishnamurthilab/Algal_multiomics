@@ -36,15 +36,3 @@ Pravin Kumar1, Shiva Sundharam S1,2, Gaurav Tripathi3, Manisha Yadav3, Jaswinder
 4Biological Oceanography Division, CSIR National Institute of Oceanography (NIO), Goa, India
 
 Correpondance: srinivasan.kmurthi@csir.res.in
-
-
-<p align="center">
-  <img src="Integration/workflow.png" width="700">
-</p>
-
-
-<p align="center">
-  <img src="figures/workflow.png" width="700">
-</p>
-
-**Figure 1.** Graphical abstract.
