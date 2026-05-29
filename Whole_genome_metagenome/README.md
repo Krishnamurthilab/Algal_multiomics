@@ -1079,6 +1079,5 @@ Please cite the original publications of the following tools if using this workf
 
 ---
 
-# Contact
+# Correspondence: srinivasan.kmurthi@csir.res.in
 
-For workflow-related issues, suggestions, or troubleshooting, please open an issue in this repository.
